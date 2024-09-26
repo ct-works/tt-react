@@ -1,0 +1,115 @@
+:root{
+    --pri-color: #9A031E;
+    --sec-color: #7E4555;
+    --text-color: #202020;
+}
+.btn-primary{
+    background-color: var(--sec-color);
+    border: 1px solid var(--sec-color);
+}
+.btn-secondary{
+    background-color: var(--sec-color);
+}
+h2, h3{
+    color: var(--pri-color);
+    font-weight: 700;
+}
+ul{
+    margin-left: -16px;
+}
+ul li{
+    list-style: none;
+    list-style-position: outside;
+    line-height: 2;
+}
+ul li i{
+    color: var(--pri-color);
+}
+/* navbar styles */
+.navbar-nav .nav-item .nav-link{
+    font-size: 16px;
+    font-weight: 600;
+    padding: 0 20px;
+    transition: all 0.3s ease-in-out;
+}
+.navbar-nav .nav-item .nav-link:hover{
+    border-bottom: 2px solid var(--pri-color);
+}
+.navbar-nav .nav-item .nav-link.active{
+    border-bottom: 2px solid var(--pri-color);
+}
+.heroset{
+    background-image: url(../img/Home\ Page\ Image-01.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    /* height: 100vh; */
+}
+.bg-slide{
+    background-color: #ebebeb7d;
+}
+
+
+/* about us page */
+.breadcrumb{
+    /* background-color: #7e4555ce; */
+    background: url(../img/subheader-800x520.jpg) #7e4555ce;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.breadcrum-text{
+    text-align: center;
+    margin-top: -28px;
+    position: relative;
+    z-index: 20;
+}
+.breadcrum-text p{
+    border-radius: 20px;
+    font-weight: 600;
+    box-shadow: 4px 4px 8px #222;
+}
+.cta-about{
+    box-shadow: 4px 4px 8px #222;
+    border-radius: 20px;
+}
+
+/* contact page */
+.localmap{
+    padding: 0;
+    margin-top: -14px;
+}
+.contact-form{
+    margin-top: -150px;
+}
+
+/* footer style */
+.footer-logo{
+    box-shadow: 0px 0px 10px #222;
+}
+footer h2{
+    color: var(--pri-color);
+}
+footer ul{
+    margin-left: 46px;
+    text-align: left;
+}
+footer ul li{
+    list-style: none;
+    list-style-position: outside;
+    line-height: 2;
+}
+.om{
+    color: var(--pri-color);
+    font-weight: 800;
+}
+.footer-icons{
+    color: var(--sec-color);
+    transition: all 0.5s ease-in-out;
+}
+.footer-icons span i:hover{
+    transform: scale(1.2);
+}
